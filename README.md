@@ -1,4 +1,4 @@
-# 2019-2020
+# 2019-2020 (updated)
 
 [Plan du cours](https://nbviewer.jupyter.org/github/jbcaillau/mi2/blob/master/cm/cm.ipynb?flush_cache=true)
 
