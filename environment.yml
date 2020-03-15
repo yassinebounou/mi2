@@ -1,4 +1,4 @@
-name: test
+name: mi2
 channels:
   - conda-forge
   - defaults

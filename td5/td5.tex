@@ -1,0 +1,117 @@
+% Written on Mon  9 Apr 2018 12:02:58 CEST
+% by Jean-Baptiste Caillau, LJAD, Univ. Cote d'Azur & CNRS/Inria
+\documentclass[11pt,a4paper]{article}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{tp}
+\def\N{\mathbf{N}}
+\def\Z{\mathbf{Z}}
+\def\Q{\mathbf{Q}}
+\def\R{\mathbf{R}}
+\def\C{\mathbf{C}}
+\def\K{\mathbf{K}}
+\def\L{\mathrm{L}}
+\def\H{\mathrm{H}}
+\def\M{\mathrm{M}}
+\def\W{\mathrm{W}}
+\def\O{\mathrm{O}}
+\def\tr{\mathrm{tr}}
+\def\ch{\mathrm{ch}}
+\def\sh{\mathrm{sh}}
+\def\Vect{\mathrm{Vect}}
+\def\iy{\infty}
+\def\d{\mathrm{d}}
+\def\t{\ \!^t\!}
+\def\veps{\varepsilon}
+\def\vphi{\varphi}
+\def\la{\langle}
+\def\ra{\rangle}
+\def\noi{\noindent}
+\def\cf{\emph{cf.}}
+\def\ie{\emph{i.e.}}
+\renewcommand{\tilde}{\widetilde}
+\renewcommand{\hat}{\widehat}
+
+\title{TD~5 -- S\'eries de Fourier}
+\shorttitle{TD~5}
+\numero{TD~5}
+\date{2019--2020}
+\discipline{MI2}
+\promotion{Polytech Nice Sophia --- MAM3}
+
+\begin{document}
+\maketitle
+
+% Exercice 1
+\begin{Exercice}[Fonction $\zeta$ de Riemann]
+Soit
+$$ \zeta(s) = \sum_{n \geq 1} \frac{1}{n^s},\ s \in ]1,+\iy[. $$
+Calculer $\zeta(2)$, $\zeta(4)$ et $\zeta(6)$. 
+\end{Exercice} \vspace*{1em}
+
+% Exercice 2
+\begin{Exercice}
+Soit $f \in \R^\R$, paire et $2\pi$-p\'eriodique d\'efinie par
+$f(x)=\pi-2x$ sur $[0,\pi[$.
+\begin{Question} Donner l'expression de la s\'erie de Fourier de $f$
+sur la base hilbertienne des polyn\^omes trigonom\'etriques.
+\end{Question}
+
+\begin{Question} Indiquer la nature de la convergence de la s\'erie de
+Fourier de $f$. \end{Question}
+
+\begin{Question} En d\'eduire
+$$ \sum_{p \geq 0} \frac{1}{(2p+1)^2}\ \text{et}\ 
+   \sum_{p \geq 0} \frac{1}{(2p+1)^4}\cdot$$
+\end{Question}
+\end{Exercice} \vspace*{1em}
+
+% Exercice 3
+\begin{Exercice}
+Soit $f \in \R^\R$ $2\pi$-p\'eriodique d\'efinie par
+$f(x)=e^{ax}$ sur $[0,2\pi[$ ($a \neq 0$).
+\begin{Question} Donner l'expression de la s\'erie de Fourier de $f$
+sur la base hilbertienne des polyn\^omes trigonom\'etriques.
+\end{Question}
+
+\begin{Question} Indiquer la nature de la convergence de la s\'erie de
+Fourier de $f$. \end{Question}
+
+\begin{Question} En d\'eduire
+$$ \sum_{n \geq 1} \frac{a}{a^2+n^2}\cos nx\ \text{et}\ 
+   \sum_{n \geq 1} \frac{n}{a^2+n^2}\sin nx. $$
+\end{Question}
+
+\begin{Question} En d\'eduire \'egalement
+$$ \sum_{n \geq 1} \frac{1}{(a^2+n^2)^2}\ \text{et}\ 
+   \sum_{n \geq 1} \frac{n^2}{(a^2+n^2)^2}. $$
+(Rappel~: $\ch\,x=(e^x+e^{-x})/2$ et $\sh\,x=(e^x-e^{-x})/2$.)
+\end{Question}
+\end{Exercice} \vspace*{1em}
+
+\newpage
+% Exercice 4
+\begin{Exercice} Soit $E$ l'ensemble des (classes de) fonctions
+mesurables $x:[0,1] \to \R$ telles que
+$$ \int_{[0,1]} \frac{|x(t)|^2}{t}dt < \iy. $$
+
+\begin{Question} Montrer que $E$ est un espace vectoriel
+contenant les fonctions nulles et d\'erivables \`a l'origine.
+\end{Question}
+
+\begin{Question} Montrer que
+$$ (x|y) = \int_{[0,1]} \frac{x(t)y(t)}{t}dt $$
+d\'efinit un produit scalaire sur $E$. \end{Question}
+
+\begin{Question} On note $(P_n)_{n \geq 1}$ le SON obtenu par
+orthonormalisation de $\R[X] \backslash \R$. Calculer $P_i$,
+$i=1,\dots,3$. \end{Question}
+\end{Exercice} \vspace*{1em}
+
+\vfill \begin{flushright}{\footnotesize \emph{En ligne sous}
+\texttt{caillau.perso.math.cnrs.fr/mi2}} \end{flushright}
+
+\end{document}

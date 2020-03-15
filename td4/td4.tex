@@ -1,0 +1,104 @@
+% Written on Wed 28 Mar 2018 09:48:54 CEST
+% by Jean-Baptiste Caillau, LJAD, Univ. Cote d'Azur & CNRS/Inria
+\documentclass[11pt,a4paper]{article}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{tp}
+\def\N{\mathbf{N}}
+\def\Z{\mathbf{Z}}
+\def\Q{\mathbf{Q}}
+\def\R{\mathbf{R}}
+\def\C{\mathbf{C}}
+\def\K{\mathbf{K}}
+\def\L{\mathrm{L}}
+\def\H{\mathrm{H}}
+\def\M{\mathrm{M}}
+\def\W{\mathrm{W}}
+\def\O{\mathrm{O}}
+\def\tr{\mathrm{tr}}
+\def\Vect{\mathrm{Vect}}
+\def\iy{\infty}
+\def\d{\mathrm{d}}
+\def\t{\ \!^t\!}
+\def\veps{\varepsilon}
+\def\vphi{\varphi}
+\def\la{\langle}
+\def\ra{\rangle}
+\def\noi{\noindent}
+\def\cf{\emph{cf.}}
+\def\ie{\emph{i.e.}}
+\renewcommand{\tilde}{\widetilde}
+\renewcommand{\hat}{\widehat}
+
+\title{TD~4 -- Projection, orthogonalit\'e}
+\shorttitle{TD~4}
+\numero{TD~4}
+\date{2019--2020}
+\discipline{MI2}
+\promotion{Polytech Nice Sophia --- MAM3}
+
+\begin{document}
+\maketitle
+
+% Exercice 1
+\begin{Exercice}
+Soit $A = (a_{ij})_{1 \leq i,j \leq n} \in \M(n,\R)$, on
+rappelle que $\tr(A)=\sum_{i=1}^n a_{ii}$.
+\begin{Question}
+Montrer que l'application $(.|.)$ de $\M(n,\R) \times
+\M(n,\R)$ dans $\R$ d\'efinie par
+$$ (X|Y) = \tr(\t XY) $$
+d\'efinit un produit scalaire qui fait de $\M(n,\R)$ un espace euclidien.
+La norme matricielle associ\'ee s'appelle la \emph{norme de Frobenius}.
+\end{Question}
+\begin{Question} Soient $X$, $Y$ et $A$ dans $\M(n,\R)$, montrer que ce
+produit scalaire poss\`ede les propri\'et\'es suivantes~:
+\begin{itemize}
+  \item[(i)]  $(\t X|\t\,Y) = (X|Y)$
+  \item[(ii)] $(AX|Y) = (X|\t AY).$
+\end{itemize}
+\end{Question}
+\begin{Question} Soit $O \in \O(n,\R)$ une matrice orthogonale, montrer
+que l'application $X \mapsto OX$ est une isom\'etrie de $\M(n,\R)$.
+\end{Question}
+\end{Exercice} \vspace*{1em}
+
+% Exercice 2
+\begin{Exercice}
+On rappelle que $\L^2([0,2\pi],\R)$ muni du produit scalaire
+$$ (x|y) = \int_{[0,2\pi]} xydt $$
+est un espace de Hilbert.
+Soit $F = \Vect(\{\sin,\cos\})$, et soit $x_0$ d\'efini par
+$x_0(t)=e^t$. Justifier que $x_0$ poss\`ede un unique projet\'e
+orthogonal sur $F$ et le calculer.
+\end{Exercice} \vspace*{1em}
+
+% Exercice 3
+\begin{Exercice}
+\begin{Question} Montrer que l'espace
+$$ \ell^2=\{X=(x_n)_n \in \R^\N\ |\ \sum_n |x_n|^2<\iy\} $$
+muni du produit scalaire $(X|Y) = \sum_n x_n y_n$
+est un espace de Hilbert. \end{Question}
+\begin{Question} Soit $G_k = \{X \in \ell^2\ |\ \sum_{n=0}^{k-1} x_n = 0\}$
+(o\`u $k \geq 1$ est fix\'e). Justifier que $G_k$ est un sev ferm\'e de
+$\ell^2$. \end{Question}
+\begin{Question} Soit $X=(1,0,\dots,0,\dots) \in \ell^2$, \'evaluer
+$d(X,G_k)$, la distance de $X$ \`a $G_k$. \end{Question}
+\end{Exercice} \vspace*{1em}
+
+\enlargethispage{1cm}
+% Exercice 4
+\begin{Exercice} R\'esoudre le probl\`eme d'optimisation
+$$ \left\{ \begin{array}{l}
+  \min \int_{[-1,1]} |x^5-a_4 x^4-a_3 x^3-a_2 x^2-a_1 x-a_0|^2 dx\\
+  a=(a_0,\dots,a_4) \in \R^5.
+\end{array} \right. $$
+\end{Exercice} \vspace*{1em}
+
+\vfill \begin{flushright}{\footnotesize \emph{En ligne sous}
+\texttt{caillau.perso.math.cnrs.fr/mi2}} \end{flushright}
+
+\end{document}

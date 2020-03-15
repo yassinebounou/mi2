@@ -1,0 +1,148 @@
+% Written on Wed  9 May 2018 09:49:59 CEST
+% by Jean-Baptiste Caillau, LJAD, Univ. Cote d'Azur & CNRS/Inria
+\documentclass[11pt,a4paper]{article}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{tp}
+\def\N{\mathbf{N}}
+\def\Z{\mathbf{Z}}
+\def\Q{\mathbf{Q}}
+\def\R{\mathbf{R}}
+\def\C{\mathbf{C}}
+\def\K{\mathbf{K}}
+\def\L{\mathrm{L}}
+\def\H{\mathrm{H}}
+\def\M{\mathrm{M}}
+\def\W{\mathrm{W}}
+\def\O{\mathrm{O}}
+\def\tr{\mathrm{tr}}
+\def\ch{\mathrm{ch}}
+\def\sh{\mathrm{sh}}
+\def\CC{\mathscr{C}}
+\def\DD{\mathscr{D}}
+\def\vp{\mathrm{vp}}
+\def\Vect{\mathrm{Vect}}
+\def\iy{\infty}
+\def\d{\mathrm{d}}
+\def\t{\ \!^t\!}
+\def\veps{\varepsilon}
+\def\vphi{\varphi}
+\def\la{\langle}
+\def\ra{\rangle}
+\def\noi{\noindent}
+\def\cf{\emph{cf.}}
+\def\ie{\emph{i.e.}}
+\renewcommand{\tilde}{\widetilde}
+\renewcommand{\hat}{\widehat}
+
+\title{TD~6 -- Distributions}
+\shorttitle{TD~6}
+\numero{TD~6}
+\date{2019--2020}
+\discipline{MI2}
+\promotion{Polytech Nice Sophia --- MAM3}
+
+\begin{document}
+\maketitle
+
+% Exercice 1
+\begin{Exercice} Soient $f_1$ et $f_2$ des fonctions de classe $\CC^1$ de $\R$ dans
+$\R$, et soit $f$ la fonction d\'efinie par $f(x)=f_1(x)$ si $x<0$, $f(x)=f_2(x)$ si
+$x>0$ (la valeur $f(0)$ \'etant arbitraire).
+
+\begin{Question} Montrer que $f$ appartient \`a $\L^1_\mathrm{loc}(\R)$ et
+d\'efinit une distribution r\'eguli\`ere not\'ee $T_f \in \DD'(\R)$.
+\end{Question}
+
+\begin{Question} Montrer que $f$ est d\'erivable sur $\R^*$, et montrer que sa
+d\'eriv\'ee d\'efinit \'egalement une distribution r\'eguli\`ere not\'ee
+$T_{f'} \in \DD'(\R)$. 
+\end{Question}
+
+\begin{Question} Montrer la "formule de saut"
+\[ (T_f)' = T_{f'}+(f_2(0)-f_1(0))\delta. \]
+\end{Question}
+
+\end{Exercice} \vspace*{1em}
+
+% Exercice 2
+\begin{Exercice} Soit $p$ un entier naturel, $p \geq 1$. D\'eterminer $x\delta^{(p)}$. 
+\end{Exercice} \vspace*{1em}
+
+% Exercice 3
+\begin{Exercice} On pose, pour $\vphi \in \DD(\R)$, 
+\[ \vp_{1/x}(\vphi) :=
+   \lim_{\veps \to 0} \int_{|x| \geq \veps} \frac{\vphi(x)}{x}\,\d x. \]
+
+\begin{Question} Montrer qu'on d\'efinit ainsi une distribution sur $\R$, appel\'ee
+"valeur principale de $1/x$".
+\end{Question}
+
+\begin{Question} Montrer que la fonction $\ln|x|$ d\'efinit une
+distribution r\'eguli\`ere sur $\R$, et v\'erifier que $T_{\ln|x|}'=\vp_{1/x}$.
+\end{Question}
+
+\begin{Question} D\'eterminer $x\cdot\vp_{1/x}$.
+\end{Question}
+
+\end{Exercice} \vspace*{1em}
+
+% Exercice 4
+\begin{Exercice} On consid\`ere l'\'equation diff\'erentielle
+\begin{equation} \label{eq1}
+  xy'(x) = 0,\quad x \in \R.
+\end{equation}
+
+\begin{Question} R\'esoudre l'\'equation (\ref{eq1}) dans $\CC^1(\R)$.
+\end{Question}
+
+\begin{Question} Montrer qu'une solution dans $\CC^1(\R)$ de cette
+\'equation v\'erifie \'egalement l'\'equation
+\begin{equation} \label{eq2}
+  \int_\R y(x)(x\vphi(x))'\,\d x = 0,\quad \vphi \in \DD(\R).
+\end{equation}
+\end{Question}
+
+\begin{Question} Montrer que la fonction de Heaviside, $H=1_{\R_+}$, v\'erifie 
+(\ref{eq2}).
+\end{Question}
+
+\begin{Question} R\'esoudre l'\'equation $xT'=0$ dans $\DD'(\R)$.
+\end{Question}
+
+\end{Exercice} \vspace*{1em}
+
+% Exercice 5
+\begin{Exercice} On d\'efinit $f : \R \to \R$ par $f(x)=(\pi-x)/2$ sur $[0,2\pi[$, et
+en prolongeant la fonction sur tout $\R$ par $2\pi$-p\'eriodicit\'e.
+
+\begin{Question} Montrer que $f$ appartient \`a $\L^2_{2\pi}(\R)$ et calculer sa
+s\'erie de Fourier.
+\end{Question}
+
+\begin{Question} Montrer que $f$ d\'efinit une distribution r\'eguli\`ere, not\'ee
+$T_f$, et d\'eduire de la question pr\'ec\'edente que
+\[ T_f = \sum_{n \geq 1} \frac{\sin nx}{n} \]
+dans $\DD'(R)$.
+\end{Question}
+
+\begin{Question} En d\'eduire la formule de Poisson dans $\DD'(\R)$,
+\[ \sum_{n \in \Z} e^{inx} = 2\pi\sum_{n \in \Z} \delta_{2n\pi}. \]
+\end{Question}
+
+\begin{Question} En d\'eduire, pour $\vphi \in \DD(\R)$, la formule
+\[ \sum_{n \in \Z} \hat{\vphi}(n) = \sum_{n \in \Z} \vphi(n). \]
+NB. On rappelle que, pour $\vphi \in \L^1(\R)$, on d\'efinit la transform\'ee de
+Fourier $\hat\vphi$ par
+\[ \hat\vphi(\xi) := \int_\R \vphi(t)e^{-2i\pi\xi t}\,\d t. \]
+\end{Question}
+
+\end{Exercice} \vspace*{1em}
+
+\vfill \begin{flushright}{\footnotesize \emph{En ligne sous}
+\texttt{caillau.perso.math.cnrs.fr/mi2}} \end{flushright}
+
+\end{document}

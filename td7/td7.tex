@@ -1,0 +1,122 @@
+% Written on Mon 28 May 2018 06:44:40 CEST
+% by Jean-Baptiste Caillau, LJAD, Univ. Cote d'Azur & CNRS/Inria
+\documentclass[11pt,a4paper]{article}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{tp}
+\def\N{\mathbf{N}}
+\def\Z{\mathbf{Z}}
+\def\Q{\mathbf{Q}}
+\def\R{\mathbf{R}}
+\def\C{\mathbf{C}}
+\def\K{\mathbf{K}}
+\def\L{\mathrm{L}}
+\def\H{\mathrm{H}}
+\def\M{\mathrm{M}}
+\def\W{\mathrm{W}}
+\def\O{\mathrm{O}}
+\def\tr{\mathrm{tr}}
+\def\ch{\mathrm{ch}}
+\def\sh{\mathrm{sh}}
+\def\CC{\mathscr{C}}
+\def\DD{\mathscr{D}}
+\def\vp{\mathrm{vp}}
+\def\Vect{\mathrm{Vect}}
+\def\iy{\infty}
+\def\d{\mathrm{d}}
+\def\t{\ \!^t\!}
+\def\veps{\varepsilon}
+\def\vphi{\varphi}
+\def\la{\langle}
+\def\ra{\rangle}
+\def\noi{\noindent}
+\def\cf{\emph{cf.}}
+\def\ie{\emph{i.e.}}
+\renewcommand{\tilde}{\widetilde}
+\renewcommand{\hat}{\widehat}
+
+\title{TD~7 -- Probl\`emes aux limites}
+\shorttitle{TD~7}
+\numero{TD~7}
+\date{2019--2020}
+\discipline{MI2}
+\promotion{Polytech Nice Sophia --- MAM3}
+
+\begin{document}
+\maketitle
+
+% Exercice 1
+\begin{Exercice} On consid\`ere le sous-espace vectoriel $\H^1(]0,1[)$ de $\L^2(]0,1[)$
+des classes de fonctions dont la d\'eriv\'ee au sens des distributions appartient
+encore \`a $\L^2(]0,1[)$~: $u \in \H^1(]0,1[)$ si et seulement s'il existe $v \in
+\L^2(]0,1[)$ telle que, pour tout $\vphi \in \DD(]0,1[)$,
+\[ \int_0^1 u\vphi'\,\d t =-\int_0^1 v\vphi\,\d t. \]
+
+\begin{Question} Montrer qu'on d\'efinit un produit scalaire sur $\H^1(]0,1[)$ en
+posant
+\[ (u|v)_{H^1} := (u|v)_{\L^2}+(u'|v')_{\L^2}. \]
+\end{Question}
+
+\begin{Question} Montrer que $\H^1(]0,1[)$, muni de ce produit scalaire, est un espace
+de Hilbert.
+\end{Question}
+
+\begin{Question} En utilisant le fait que pour tout $u$ dans $\H^1(]0,1[)$
+on a (existence d'un repr\'esentant continu tel que)
+\[ u(t) = u(0) + \int_0^t u'(t)\,\d t,\quad t \in [0,1], \]
+montrer que le sous-espace vectoriel $\H^1_0(]0,1[)$ de $\H^1(]0,1[)$ des (classes de)
+fonctions $u$ telles que $u(0)=u(1)=0$ est \'egalement un espace de Hilbert pour ce
+produit scalaire.
+\end{Question}
+
+\end{Exercice} \vspace*{1em}
+
+% Exercice 2
+\begin{Exercice} On consid\`ere le probl\`eme avec conditions aux limites \emph{de
+Dirichlet} suivant~: trouver $u \in \CC^2([0,1])$ telle que
+\[ -u''(t)+u(t) = f(t),\quad t \in ]0,1[, \]
+\[ u(0)=0,\quad u(1)=0, \]
+o\`u $f$ est une fonction donn\'ee de $\CC^0([0,1])$.
+
+\begin{Question} Montrer que toute solution ("forte") $u$ de ce probl\`eme
+est \'egalement solution ("faible") de l'\'equation suivante~: quel que soit $v \in
+\H^1_0(]0,1[)$,
+\[ (u|v)_{H^1} = \int_0^1 fv\,\d t. \]
+\end{Question}
+
+\begin{Question} Montrer qu'on a existence et unicit\'e de solution faible dans
+$\H^1_0(]0,1[)$.
+\end{Question}
+
+\begin{Question} Montrer que, si $f \in \CC^0([0,1])$, la solution faible appartient
+\`a $\CC^2([0,1])$.
+\end{Question}
+
+\begin{Question} En d\'eduire que, si $f \in \CC^0([0,1])$, toute solution faible est
+aussi solution forte.
+\end{Question}
+
+\end{Exercice} \vspace*{1em}
+
+% Exercice 3
+\begin{Exercice} On consid\`ere le probl\`eme avec conditions aux limites
+\emph{mixtes} suivant~: trouver $u \in \CC^2([0,1])$ telle que
+\[ -u''(t)+u(t) = f(t),\quad t \in ]0,1[, \]
+\[ u(0)=0,\quad u'(1)=0, \]
+o\`u $f$ est une fonction donn\'ee de $\CC^0([0,1])$. Proposer une formulation
+varia\-tionnelle de ce probl\`eme, puis r\'esoudre.
+
+\end{Exercice} \vspace*{1em}
+
+\vfill \begin{flushright}{\footnotesize \emph{En ligne sous}
+\texttt{caillau.perso.math.cnrs.fr/mi2}} \end{flushright}
+
+\end{document}
+
+\begin{Exercice}
+
+\begin{Question} 
+\end{Question}

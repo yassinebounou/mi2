@@ -1,0 +1,220 @@
+% Written on Tue 30 Apr 2019 19:52:28 CEST
+% by Jean-Baptiste Caillau, Universite Cote d'Azu, CNRS, Inria, LJAD
+\documentclass[11pt,a4paper]{article}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage[french]{babel}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage{tp}
+\usepackage{version}
+\def\N{\mathbf{N}}
+\def\Z{\mathbf{Z}}
+\def\Q{\mathbf{Q}}
+\def\R{\mathbf{R}}
+\def\C{\mathbf{C}}
+\def\CC{\mathscr{C}}
+\def\T{\mathbf{T}}
+\def\K{\mathbf{K}}
+\def\L{\mathrm{L}}
+\def\H{\mathrm{H}}
+\def\W{\mathrm{W}}
+\def\M{\mathrm{M}}
+\def\O{\mathrm{O}}
+\def\Im{\mathrm{Im}}
+\def\Vect{\mathrm{Vect}}
+\def\Min{\mathrm{Min}}
+\def\BV{\mathrm{BV}}
+\def\Isom{\mathrm{Isom}}
+\def\iy{\infty}
+\def\d{\mathrm{d}}
+\def\t{\ \!^t\!}
+\def\tr{\mathrm{tr}}
+\def\veps{\varepsilon}
+\def\vphi{\varphi}
+\def\la{\langle}
+\def\ra{\rangle}
+\def\noi{\noindent}
+\def\cf{\emph{cf.}}
+\def\ie{\emph{i.e.}}
+\def\etc{\emph{etc.}}
+\renewcommand{\tilde}{\widetilde}
+\renewcommand{\bar}{\overline}
+\renewcommand{\hat}{\widehat}
+\theoremstyle{plain}
+\newtheorem{thrm}{Th\'eor\`eme}[section]
+\newtheorem{prpstn}{Proposition}[section]
+\newtheorem{lmm}{Lemme}[section]
+\newtheorem{crllr}{Corollaire}[section]
+\newtheorem{dfntn}{D\'efinition}[section]
+\theoremstyle{definition}
+\newtheorem{rmrk}{Remarque}[section]
+
+%\excludeversion{corr}
+\includeversion{corr}
+
+\title{Exam CC no.~2}
+\shorttitle{Exam CC no.~2}
+\numero{Exam CC no.~2}
+\date{2018--2019}
+\discipline{MI2}
+\promotion{Polytech Nice-Sophia --- MAM3}
+
+\begin{document}
+\maketitle
+
+\vspace*{-.5cm}
+{\bf Dur\'ee 1H30. Tous les exercices sont ind\'ependants.
+Le bar\`eme pr\'e\-vi\-sion\-nel est indiqu\'e pour chaque exercice.
+%Rendre sur des copies s\'epar\'ees l'exercice 1 d'une part, les exercices 2 et 3
+%d'autre part.
+Documents autoris\'es~: une feuille de notes de cours recto-verso manuscrite.}
+
+% Exercice 1
+\begin{Exercice}[4 points]
+Sur l'espace
+\[ \ell^2=\{X=(x_n)_n \in \R^\N\ |\ \sum_{n=0}^\iy |x_n|^2<\iy\} \]
+muni de son produit scalaire
+\[ (X|Y) = \sum_{n=0}^\iy x_n y_n, \]
+on d\'efinit $G = \{X=(x_n)_n \in \ell^2\ |\ 2x_0-x_2= 0\}$.
+
+\begin{Question} Montrer que $G$ est un sous-espace vectoriel ferm\'e de $\ell^2$.
+\end{Question}
+
+\begin{corr} $\RHD$ La partie est un sous-espace vectoriel ferm\'e comme orthogonal de $\{X_0\}$ o\`u
+\[ X_0=(2,0,-1,0,0,\dots) \]
+appartient \`a $\ell^2$ puisque c'est une suite presque nulle.
+\end{corr}
+
+Soit $k \geq 3$ fix\'e, et soit
+$X_k=(\underbrace{1,\dots,1}_{k \text{ fois}},0,0,\dots) \in \ell^2$.
+
+\begin{Question} D\'eterminer le projet\'e orthogonal de $X_k$ sur $G$. \end{Question}
+
+\begin{corr} $\RHD$
+Le projet\'e $\bar{X_k}$ est caract\'eris\'e par les deux relations $X_k-\bar{X_k}
+\in G^\perp=\overline{\Vect(\{X_0\})}=\Vect(\{X_0\})$ (double orthogonal,
+de dimension finie donc fer\-m\'e) et $\bar{X} \perp X_0$. On en d\'eduit qu'il existe
+$\lambda \in \R$ tel que $X_k-\bar{X_k}=\lambda X_0$, que l'on d\'etermine en \'ecrivant
+$(\bar{X_k}|X_0)=0$. D'o\`u, en utilisant $(X_k|X_0)=1$ et $\|X_0\|^2=5$,
+$\lambda=1/5$ et
+\[ \bar{X}_k = (\underbrace{3/5,1,6/5,1,\dots,1}_{k \text{ termes}},0,\dots). \]
+\end{corr}
+
+\begin{Question} En d\'eduire la distance de $X_k$ \`a $G$. \end{Question}
+
+\begin{corr} $\RHD$ La distance vaut $\|X-\bar{X}\| = 1/\sqrt{5}$.
+\end{corr}
+
+\end{Exercice} \vspace*{1em}
+
+% Exercice 2
+\begin{Exercice}[6 points]
+Sur $\L^2([0,1])$ muni de son produit scalaire
+\[ (f|g) = \int_0^1 f(t)g(t)\,\d t, \]
+on note $D$ la droite
+vectorielle engendr\'ee par $f_0 : t \mapsto \sqrt{t}$, $D = \Vect\{f_0\}$.
+
+\begin{Question} Montrer que $D$ est un sous-espace vectoriel ferm\'e de $\L^2([0,1])$.
+\end{Question}
+
+\begin{corr} $\RHD$ La partie est un sous-espace vectoriel de dimension finie, donc
+ferm\'e.
+\end{corr}
+
+\begin{Question} Soit $f \in \L^2([0,1])$ la fonction d\'efinie sur $[0,1]$ par
+$f(t)=t$. D\'eterminer le projet\'e orthogonal de $f$ sur $D$.
+\end{Question} 
+
+\begin{corr} $\RHD$ La fonction $f$ est continue donc born\'ee sur le compact
+$[0,1]$, et appartient \`a $\L^2([0,1])$.
+Le projet\'e $\bar{f}$ est caract\'eris\'e par les deux relations $f-\bar{f} \in
+D^\perp$ et $\bar{f} \in \Vect\{f_0\}$. On en d\'eduit qu'il existe
+$\lambda \in \R$ tel que $\bar{f}=\lambda f_0$, que l'on d\'etermine en \'ecrivant
+$(f-\bar{f}|f_0)=0$. D'o\`u, en utilisant $(f|f_0)=2/5$ et $\|f_0\|^2=1/2$,
+$\lambda=4/5$ et
+\[ \bar{f} = 4\sqrt{t}/5. \]
+\end{corr}
+
+\begin{Question} D\'eduire de la question pr\'ec\'edente
+la distance de $f$ \`a la droite $D$. 
+\end{Question}
+
+\begin{corr} $\RHD$
+La distance vaut $\|f-\bar{f}\| = \sqrt{3}/15$.
+\end{corr}
+
+\begin{Question} Orthonormaliser la famille $\{\sqrt{t},t\}$.
+\end{Question}
+
+\begin{corr} $\RHD$
+D'apr\`es les calculs pr\'ec\'edents, une orthonormalisation possible (Gram-Schmidt)
+est
+\[ \{\sqrt{2t},\sqrt{3}(5t-4\sqrt{t})\}. \]
+\end{corr}
+
+\end{Exercice} \vspace*{1em}
+
+% Exercice 3
+\begin{Exercice}[4 points]
+R\'esoudre le probl\`eme d'optimisation
+\[ \begin{array}{l}
+  \min \int_{-1}^1 |1-at-b e^t|^2\,\d t\\
+  (a,b) \in \R^2
+\end{array} \]
+
+\begin{corr} $\RHD$ On calcule le projet\'e orthogonal de
+$1$ sur le sous-espace vectoriel ferm\'e (car de dimension au plus $2$) engendr\'e par
+$t$ et $e^t$ dans $\L^2([-1,1])$ avec la matrice de Gram associ\'ee (\cf{} TD~4, Exo~4),
+ce qui conduit au syst\`eme lin\'eaire
+\[ \left[ \begin{array}{cc} 2/3 & 2/e\\ 2/e & (e^2-1/e^2)/2 \end{array} \right]
+   \left[ \begin{array}{c} a\\ b \end{array} \right] = 
+   \left[ \begin{array}{c} 0\\ e-1/e \end{array} \right]. \]
+On en d\'eduit
+\[ a=-6(e^2-1)/(e^4-13),\ b=2e(e^2-1)/(e^4-13). \]
+\end{corr}
+
+\end{Exercice} \vspace*{1em}
+
+% Exercice 4
+\begin{Exercice}[6 points]
+Soit $f:\R \to \R$, d\'efinie par
+$f(t)=|t|$ sur $[-\pi,\pi]$ et prolong\'ee \`a tout $\R$ par $2\pi$-p\'eriodicit\'e.
+
+\begin{Question} Donner l'expression de la s\'erie de Fourier de $f$
+sur la base hilbertienne des polyn\^omes trigonom\'etriques.
+\end{Question}
+
+\begin{corr} $\RHD$ La fonction est paire, donc $b_n=0$, $n \geq 1$,
+et
+\[ a_0 = \frac{\pi^2}{\sqrt{2\pi}}\,,\quad
+   a_{2p-1} =-\frac{4}{(2p-1)^2\sqrt{\pi}}\,,\quad a_{2p} = 0,\quad p \geq 1. \]
+\end{corr}
+
+\begin{Question} En d\'eduire la somme de la s\'erie
+\[ \sum_{p \geq 0} \frac{1}{(2p+1)^2} \cdot \] 
+\end{Question}
+
+\begin{corr} $\RHD$ On applique Dirichlet (la fonction est $\CC^1$ par morceaux) en
+$t=0$ en lequel la fonction est continue
+d'o\`u
+\[ \sum_{p \geq 0} \frac{1}{(2p+1)^2} = \frac{\pi^2}{8}\cdot \]
+\end{corr}
+
+\begin{Question} En d\'eduire \'egalement la somme de la s\'erie
+\[ \sum_{p \geq 0} \frac{1}{(2p+1)^4} \cdot \] 
+\end{Question}
+
+\begin{corr} $\RHD$ On applique Parseval, sachant que $\|f\|^2=2\pi^3/3$, d'o\`u
+\[ \sum_{p \geq 0} \frac{1}{(2p+1)^4} = \frac{\pi^4}{96}\cdot \]
+\end{corr}
+
+\end{Exercice} \vspace*{1em}
+
+%\vfill \begin{flushright}{\footnotesize \emph{En ligne sous}
+%\texttt{caillau.perso.math.cnrs.fr/mi2}} \end{flushright}
+\end{document}
+
+\begin{corr} $\RHD$
+\end{corr}

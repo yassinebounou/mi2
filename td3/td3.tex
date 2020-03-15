@@ -1,0 +1,88 @@
+% Written on Wed 21 Mar 2018 09:39:26 CET
+% by Jean-Baptiste Caillau, LJAD, Univ. Cote d'Azur & CNRS/Inria
+\documentclass[11pt,a4paper]{article}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{tp}
+\def\N{\mathbf{N}}
+\def\Z{\mathbf{Z}}
+\def\Q{\mathbf{Q}}
+\def\R{\mathbf{R}}
+\def\C{\mathbf{C}}
+\def\K{\mathbf{K}}
+\def\L{\mathrm{L}}
+\def\H{\mathrm{H}}
+\def\W{\mathrm{W}}
+\def\iy{\infty}
+\def\d{\mathrm{d}}
+\def\t{\ \!^t\!}
+\def\veps{\varepsilon}
+\def\vphi{\varphi}
+\def\la{\langle}
+\def\ra{\rangle}
+\def\noi{\noindent}
+\def\cf{\emph{cf.}}
+\def\ie{\emph{i.e.}}
+\renewcommand{\tilde}{\widetilde}
+\renewcommand{\hat}{\widehat}
+
+\title{TD~3 -- Espaces de suites}
+\shorttitle{TD~3}
+\numero{TD~3}
+\date{2019--2020}
+\discipline{MI2}
+\promotion{Polytech Nice Sophia --- MAM3}
+
+\begin{document}
+\maketitle
+
+Pour $1 \leq p < \iy$ on d\'efinit $\ell^p$ l'ensemble des suites r\'eelles
+de puissance $p$-i\`eme sommable, et $\ell^\iy$ l'ensemble des suites r\'eelles born\'ees.
+(Les d\'efinitions et r\'esultats qui suivent valent aussi pour des suites complexes.)
+
+% Exercice 1
+\begin{Exercice}
+Montrer qu'on
+d\'efinit une norme sur $\ell^p$ en posant
+\[ \|(x_k)_k\|_p = (\sum_k |x_k|^p)^{1/p},\quad 1 \leq p < \iy, \]
+et
+\[ \|(x_k)_k\|_\iy = \sup_k |x_k|. \]
+\end{Exercice}
+
+% Exercice 2
+\begin{Exercice} Soient $1 \leq p < q \leq \infty$.
+Montrer que $\ell^p \subsetneq \ell^q$, avec
+injection continue.
+\end{Exercice} \vspace*{1em}
+
+% Exercice 3
+\begin{Exercice} Montrer que $(\ell^p,\|.\|_p)$ est un Banach, $1 \leq p
+\leq \iy$. \end{Exercice} \vspace*{1em}
+
+%% Exercice 3
+%\begin{Exercice} Soit $1<p<\iy$ et soit $p'$ son exposant conjugu\'e
+%($\frac{1}{p}+\frac{1}{p'}=1$).
+%\begin{Question} Soit $Y=(y_k)_k \in \ell^{p'}$, montrer que
+%\begin{equation} \label{eq1}
+%\vphi_Y\ :\ \begin{array}{rcl}
+%  \ell^p & \rightarrow & \K\\
+%  X=(x_k)_k & \mapsto & \sum_k x_k y_k
+%\end{array}
+%\end{equation}
+%est une forme lin\'eaire continue. \end{Question}
+%
+%\begin{Question} R\'eciproquement, soit $\vphi \in (\ell^p)'$, montrer
+%qu'il existe $Y \in \ell^{p'}$ tel que $\vphi =
+%\vphi_Y$ (telle que d\'efinie en (\ref{eq1})). \end{Question}
+%
+%\begin{Question} Conclure en montrant
+%que $(\ell^p)'$ et $\ell^{p'}$ sont isomorphes et isom\'etriques. \end{Question}
+%\end{Exercice} \vspace*{1em}
+
+\vfill \begin{flushright}{\footnotesize \emph{En ligne sous}
+\texttt{caillau.perso.math.cnrs.fr/mi2}} \end{flushright}
+
+\end{document}
