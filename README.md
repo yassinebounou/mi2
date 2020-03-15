@@ -1,6 +1,6 @@
 # 2019-2020
 
-[Plan du cours](cm/cm.ipynb)
+[Plan du cours](https://github.com/jbcaillau/mi2/blob/master/cm/cm.ipynb)
 
 [TD 1 - Calcul différentiel](td1/td1.pdf) [(corrigé)](td1/td1-corr.pdf)
 
