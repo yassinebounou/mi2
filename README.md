@@ -4,7 +4,7 @@
 
 [TD 1 - Calcul différentiel](td1.pdf) [(corrigé)](td1-corr.pdf)
 
-[TD 2 - Théorème de Cauchy-Lipschitz](td2.ipynb) [(corrigé)](td2-corr.pdf)
+[TD 2 - Théorème de Cauchy-Lipschitz](https://nbviewer.jupyter.org/github/jbcaillau/mi2/blob/master/td2.ipynb) [(corrigé)](td2-corr.pdf)
 
 [TD 3 - Espaces de suites](td3.pdf) [(corrigé)](td3-corr.pdf)
 
