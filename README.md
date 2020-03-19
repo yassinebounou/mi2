@@ -1,5 +1,6 @@
 # 2019-2020
 
+$$ \int_0^{t_f} $$
 [Plan du cours](https://nbviewer.jupyter.org/github/jbcaillau/mi2/blob/master/cm/cm.ipynb)
 
 CM II - Espaces vectoriels normés
