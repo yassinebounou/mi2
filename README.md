@@ -1,21 +1,20 @@
 # 2019-2020
 
-$$ \int_0^{t_f} $$
-[Plans du cours](https://nbviewer.jupyter.org/github/jbcaillau/mi2/blob/master/cm/cm.ipynb)
+[Plan du cours](https://github.com/jbcaillau/mi2/blob/master/cm/cm.ipynb)
 
 CM II - Espaces vectoriels normés
 [(partie 1)](http://caillau.perso.math.cnrs.fr/tmp/cm5-1.mp4)
 [(partie 2)](http://caillau.perso.math.cnrs.fr/tmp/cm5-2.mp4)
 
-[TD 1 - Calcul différentiel](../../blob/master/td1/td1.ipynb) [(corrigé)](td1/td1-corr.pdf)
+[TD 1 - Calcul différentiel](https://github.com/jbcaillau/mi2/blob/master/cm/cm.ipynb) [(corrigé)](td1/td1-corr.pdf)
 
-[TD 2 - Théorème de Cauchy-Lipschitz](https://nbviewer.jupyter.org/github/jbcaillau/mi2/blob/master/td2/td2.ipynb) [(corrigé)](td2/td2-corr.pdf)
+[TD 2 - Théorème de Cauchy-Lipschitz](https://github.com/jbcaillau/mi2/blob/master/td1/td1.ipynb) [(corrigé)](td2/td2-corr.pdf)
 
-[TD 3 - Espaces de suites](https://github.com/jbcaillau/mi2/blob/master/td3/td3.ipynb) [(corrigé)](td3/td3-corr.pdf)
+[TD 3 - Espaces de suites](https://github.com/jbcaillau/mi2/blob/master/td2/td2.ipynb) [(corrigé)](td3/td3-corr.pdf)
 
-[TD 4 - Projection, orthogonalité](td4/td4.pdf) [(corrigé)](td4/td4-corr.pdf)
+[TD 4 - Projection, orthogonalité](https://github.com/jbcaillau/mi2/blob/master/td3/td3.ipynb) [(corrigé)](td4/td4-corr.pdf)
 
-[TD 5 - Séries de Fourier](td5/td5.pdf) [(corrigé)](td5/td5-corr.pdf)
+[TD 5 - Séries de Fourier](https://github.com/jbcaillau/mi2/blob/master/td5/td5.pdf) [(corrigé)](td5/td5-corr.pdf)
 
 [TD 6 - Distributions](td6/td6.pdf) [(corrigé)](td6/td6-corr.pdf)
 
