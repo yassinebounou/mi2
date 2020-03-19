@@ -6,7 +6,7 @@ CM II - Espaces vectoriels normés
 [(partie 1)](http://caillau.perso.math.cnrs.fr/tmp/cm5-1.mp4)
 [(partie 2)](http://caillau.perso.math.cnrs.fr/tmp/cm5-2.mp4)
 
-[TD 1 - Calcul différentiel](https://nbviewer.jupyter.org/github/jbcaillau/mi2/blob/master/td1/td1.ipynb) [(corrigé)](td1/td1-corr.pdf)
+[TD 1 - Calcul différentiel](../blob/master/td1/td1.ipynb) [(corrigé)](td1/td1-corr.pdf)
 
 [TD 2 - Théorème de Cauchy-Lipschitz](https://nbviewer.jupyter.org/github/jbcaillau/mi2/blob/master/td2/td2.ipynb) [(corrigé)](td2/td2-corr.pdf)
 
