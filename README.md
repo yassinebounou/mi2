@@ -12,7 +12,7 @@ CM II - Espaces vectoriels normés
 
 [TD 3 - Espaces de suites](https://github.com/jbcaillau/mi2/blob/master/td2/td2.ipynb) [(corrigé)](td3/td3-corr.pdf)
 
-[TD 4 - Projection, orthogonalité](https://github.com/jbcaillau/mi2/blob/master/td3/td3.ipynb) [(corrigé)](td4/td4-corr.pdf)
+[TD 4 - Projection, orthogonalité](https://github.com/jbcaillau/mi2/blob/master/td4/td4.ipynb) [(corrigé)](td4/td4-corr.pdf)
 
 [TD 5 - Séries de Fourier](https://github.com/jbcaillau/mi2/blob/master/td5/td5.pdf) [(corrigé)](td5/td5-corr.pdf)
 
