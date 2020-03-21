@@ -1,4 +1,6 @@
-# 2019-2020
+![PNS](http://caillau.perso.math.cnrs.fr/logo-pns.png)
+## MAM3 - MI2
+# Mathématiques de l'ingénieur 2 - 2019-2020
 
 [Plan du cours](https://github.com/jbcaillau/mi2/blob/master/cm/cm.ipynb)
 
