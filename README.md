@@ -26,7 +26,7 @@ CM III - Espaces de Hilbert
 
 [TD 7 - Problèmes aux limites](td7/td7.pdf) [(corrigé)](td7/td7-corr.pdf)
 
-[Exam CC no. 1](exam-cc1-old/exam-cc1.pdf)
+[Exam CC no. 1](https://github.com/jbcaillau/mi2/blob/master/exam-cc1-old/exam-cc1.ipynb)
 
 [Exam CC no. 2](exam-cc2-old/exam-cc2.pdf)
 
