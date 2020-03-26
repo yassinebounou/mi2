@@ -9,6 +9,9 @@ CM II - Espaces vectoriels normés
 [(partie 1)](https://unspod.unice.fr/video/6997-mi2-cm-2-espace-vectoriels-normes-1)
 [(partie 2)](https://unspod.unice.fr/video/6999-mi2-cm-2-espace-vectoriels-normes-2)
 
+CM III - Espaces de Hilbert
+[(partie 1)](https://unspod.unice.fr/video/7146-mi2-cm-2-espace-de-hilbert-1)
+
 [TD 1 - Calcul différentiel](https://github.com/jbcaillau/mi2/blob/master/td1/td1.ipynb) [(corrigé)](td1/td1-corr.pdf)
 
 [TD 2 - Théorème de Cauchy-Lipschitz](https://github.com/jbcaillau/mi2/blob/master/td2/td2.ipynb) [(corrigé)](td2/td2-corr.pdf)
