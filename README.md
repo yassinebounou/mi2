@@ -5,28 +5,33 @@
 
 [Plan du cours](https://github.com/jbcaillau/mi2/blob/master/cm/cm.ipynb)
 
-CM II - Espaces vectoriels normés
-[(notes)](cm2/notes.pdf)
+[CM II - Espaces vectoriels normés](cm2/notes.pdf)
 [(vidéo 1)](https://unspod.unice.fr/video/6997-mi2-cm-2-espace-vectoriels-normes-1)
 [(vidéo 2)](https://unspod.unice.fr/video/6999-mi2-cm-2-espace-vectoriels-normes-2)
 
-CM III - Espaces de Hilbert
-[(notes)](cm3/notes.pdf)
+[CM III - Espaces de Hilbert](cm3/notes.pdf)
 [(vidéo 1)](https://unspod.unice.fr/video/7146-mi2-cm-2-espace-de-hilbert-1)
 
-[TD 1 - Calcul différentiel](https://github.com/jbcaillau/mi2/blob/master/td1/td1.ipynb) [(corrigé)](td1/td1-corr.pdf)
+[TD 1 - Calcul différentiel](https://github.com/jbcaillau/mi2/blob/master/td1/td1.ipynb)
+[(corrigé)](td1/td1-corr.pdf)
 
-[TD 2 - Théorème de Cauchy-Lipschitz](https://github.com/jbcaillau/mi2/blob/master/td2/td2.ipynb) [(corrigé)](td2/td2-corr.pdf)
+[TD 2 - Théorème de Cauchy-Lipschitz](https://github.com/jbcaillau/mi2/blob/master/td2/td2.ipynb)
+[(corrigé)](td2/td2-corr.pdf)
 
-[TD 3 - Espaces de suites](https://github.com/jbcaillau/mi2/blob/master/td3/td3.ipynb) [(corrigé)](td3/td3-corr.pdf)
+[TD 3 - Espaces de suites](https://github.com/jbcaillau/mi2/blob/master/td3/td3.ipynb)
+[(corrigé)](td3/td3-corr.pdf)
 
-[TD 4 - Projection, orthogonalité](td4/td4.pdf) [(corrigé)](td4/td4-corr.pdf)
+[TD 4 - Projection, orthogonalité](td4/td4.pdf)
+[(corrigé)](td4/td4-corr.pdf)
 
-[TD 5 - Séries de Fourier](td5/td5.pdf) [(corrigé)](td5/td5-corr.pdf)
+[TD 5 - Séries de Fourier](td5/td5.pdf)
+[(corrigé)](td5/td5-corr.pdf)
 
-[TD 6 - Distributions](td6/td6.pdf) [(corrigé)](td6/td6-corr.pdf)
+[TD 6 - Distributions](td6/td6.pdf)
+[(corrigé)](td6/td6-corr.pdf)
 
-[TD 7 - Problèmes aux limites](td7/td7.pdf) [(corrigé)](td7/td7-corr.pdf)
+[TD 7 - Problèmes aux limites](td7/td7.pdf)
+[(corrigé)](td7/td7-corr.pdf)
 
 [Exam CC no. 1](https://github.com/jbcaillau/mi2/blob/master/exam-cc1-old/exam-cc1.ipynb)
 
