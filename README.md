@@ -21,7 +21,7 @@
 [TD 3 - Espaces de suites](https://github.com/jbcaillau/mi2/blob/master/td3/td3.ipynb)
 [(corrigé)](td3/td3-corr.pdf)
 
-[TD 4 - Projection, orthogonalité](td4/td4.pdf)
+[TD 4 - Projection, orthogonalité](https://github.com/jbcaillau/mi2/blob/master/td4/td4.ipynb)
 [(corrigé)](td4/td4-corr.pdf)
 
 [TD 5 - Séries de Fourier](td5/td5.pdf)
