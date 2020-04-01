@@ -11,6 +11,7 @@
 
 [CM III - Espaces de Hilbert](cm3/notes.pdf)
 [(vidéo 1)](https://unspod.unice.fr/video/7146-mi2-cm-2-espace-de-hilbert-1)
+[(vidéo 2)](https://unspod.unice.fr/video/7390-mi2-cm-2-espace-de-hilbert-2)
 
 [TD 1 - Calcul différentiel](https://github.com/jbcaillau/mi2/blob/master/td1/td1.ipynb)
 [(corrigé)](td1/td1-corr.pdf)
