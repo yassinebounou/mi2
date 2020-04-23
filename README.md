@@ -27,7 +27,7 @@
 [TD 4 - Projection, orthogonalité](https://github.com/jbcaillau/mi2/blob/master/td4/td4.ipynb)
 [(corrigé)](td4/td4-corr.pdf)
 
-[TD 5 - Séries de Fourier](td5/td5.pdf)
+[TD 5 - Séries de Fourier](https://github.com/jbcaillau/mi2/blob/master/td5/td5.ipynb)
 [(corrigé)](td5/td5-corr.pdf)
 
 [TD 6 - Distributions](td6/td6.pdf)
