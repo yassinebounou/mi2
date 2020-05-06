@@ -16,6 +16,7 @@
 [(vidéo 4)](https://unspod.unice.fr/video/7670-mi2-cm-iii-espace-de-hilbert-4)
 
 [CM IV - Formulation faible de problèmes aux limites](cm4/notes.pdf)
+[(vidéo 1)](https://unspod.unice.fr/video/7780-mi2-cm-iv-formulation-faible-de-problemes-aux-limites)
 
 [TD 1 - Calcul différentiel](https://github.com/jbcaillau/mi2/blob/master/td1/td1.ipynb)
 [(corrigé)](td1/td1-corr.pdf)
