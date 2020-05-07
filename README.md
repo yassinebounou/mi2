@@ -33,7 +33,7 @@
 [TD 5 - Séries de Fourier](https://github.com/jbcaillau/mi2/blob/master/td5/td5.ipynb)
 [(corrigé)](td5/td5-corr.pdf)
 
-[TD 6 - Distributions](td6/td6.pdf)
+[TD 6 - Distributions](https://github.com/jbcaillau/mi2/blob/master/td6/td6.ipynb)
 [(corrigé)](td6/td6-corr.pdf)
 
 [TD 7 - Problèmes aux limites](td7/td7.pdf)
