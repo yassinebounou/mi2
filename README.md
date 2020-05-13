@@ -5,6 +5,8 @@
 
 [Plan du cours](https://github.com/jbcaillau/mi2/blob/master/cm/cm.ipynb)
 
+[FAQ](https://hackmd.io/@caillau/BkqetYxt8)
+
 [CM II - Espaces vectoriels normés](cm2/notes.pdf)
 [(vidéo 1)](https://unspod.unice.fr/video/6997-mi2-cm-2-espace-vectoriels-normes-1)
 [(vidéo 2)](https://unspod.unice.fr/video/6999-mi2-cm-2-espace-vectoriels-normes-2)
