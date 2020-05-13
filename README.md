@@ -45,4 +45,4 @@
 
 [Exam CC no. 2](exam-cc2-old/exam-cc2.pdf)
 
-[Exam](exam/exam.pdf)
+[Exam](exam-old/exam.pdf)
