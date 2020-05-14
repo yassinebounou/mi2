@@ -39,7 +39,7 @@
 [TD 6 - Distributions](https://github.com/jbcaillau/mi2/blob/master/td6/td6.ipynb)
 [(corrigé)](td6/td6-corr.pdf)
 
-[TD 7 - Problèmes aux limites](td7/td7.pdf)
+[TD 7 - Problèmes aux limites](https://github.com/jbcaillau/mi2/blob/master/td7/td7.ipynb)
 [(corrigé)](td7/td7-corr.pdf)
 
 [Exam CC no. 1 (2018-2019)](https://github.com/jbcaillau/mi2/blob/master/exam-cc1-old/exam-cc1.ipynb)
